@@ -9,9 +9,9 @@ public class Main{
         while(true){
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
             int num1 = Integer.parseInt(st.nextToken());
+            if(num1 == 0)break;
             int num2 = Integer.parseInt(st.nextToken());
             int num3 = Integer.parseInt(st.nextToken());
-            if(num1 == 0)break;
             arr.add(num1);
             arr.add(num2);
             arr.add(num3);
