@@ -19,9 +19,10 @@ public class Main{
             }
         });
         
+        StringBuilder sb = new StringBuilder();
         for(int i=0; i<tc; i++){
-            System.out.println(arr[i][0]+ " " + arr[i][1]);
+            sb.append(arr[i][0]+ " " + arr[i][1]).append('\n');
         }
-        
+        System.out.println(sb);
     }
 }
